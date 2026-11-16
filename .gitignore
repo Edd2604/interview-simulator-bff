@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# build
+dist/
+build/
+
+# tests
+coverage/
+
+# env
+.env
+.env.*
+!.env.example
+
+# logs
+logs/
+*.log
+pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Pulumi
+infra/node_modules/
